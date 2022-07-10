@@ -19,6 +19,7 @@ The bot works according to the following principle:
 The bot will buy tokens even if the price drops sharply. He buys in an amount more than the previous one to raise in a linear order, i.e. if "BOT_STARTING_AMOUNT" = 50, then he buys for the first time at 50, and then 100, 150, 200, 250 until the price averages to the market. Further, if the price has risen to the balance (purchase) price, then he sells all additional purchases, except for the first one, and waits for a profit. If the price goes down again, then he starts averaging it again.
 
 If the price immediately went up, then he tries to sell the tokens at the maximum price using (or not) the trailing stop method.
+![DOwnBotSCREEN](https://user-images.githubusercontent.com/97591389/178146194-7bc3b2a6-8982-4007-be15-4be8634dc2f1.png)
 
 More:
 
@@ -124,3 +125,4 @@ Pay in USDT, BUSD - BEP20 0x5a8d789C4cf0fa171230cCAd008CbAb942C96EA9 and DM tele
 
 
 -	our team is also developing similar scripts. Send DM telegram @bigbidbotsupport	
+
