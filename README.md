@@ -99,6 +99,7 @@ In addition, algorithms can be imposed on the strategy:
         "LASTREBUYPRICE": "0" -- Last purchase price
         "LASTREBUYSTATUS": "false" -- enabling the algorithm
         "LASTREBUYPERCENT": "5" -- The percentage by which the last rebuy must increase in order to sell it.
+	"PRICE_FALL_BUY_ALGORITM": "false" -- enabling the algorithm
 
 		
     
