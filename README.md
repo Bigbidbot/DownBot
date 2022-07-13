@@ -46,7 +46,7 @@ In addition, algorithms can be imposed on the strategy:
     "EXCHANGEVERSION": "2" - exchanger version
     "PREAPPROVE": "true" - before starting, check if the bot is allowed to trade coins. If not, then a permission transaction will be performed. Should be left true.
     "ENCRYPTPRIVATEKEYS": "true" encrypt your private key. We highly recommend that no one can copy it if they get access to the settings files.
-	"MY_CHAT_ID": "562111111" your "id" for telegram notifications about sales/purchases and other information from the bot. Go to @myidbot and type "/getid" to get your number.
+	"MY_CHAT_ID": "562111111" your "id" for telegram notifications about sales/purchases and other information from the bot. Go to @myidbot and type "/getid" to get your number. Go to @bigbidbot_information_bot   and press button "START"
 	"SECRET_KEY_BOT": "one1111111111" -- your license key when purchasing the bot. This is a test one. Works with 1 token and a 5 second delay between price checks.
 	"REAL_BUY_SELL_MODE": "true" --enable real selling. If you just want to see when the bot will buy and sell, set it to false.
 
