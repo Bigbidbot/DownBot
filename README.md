@@ -32,9 +32,14 @@ The bot will make purchases until it averages the price or until it reaches the 
 - If the price continues to fall then you can enable "STOPLOSSFULLTRIGGER" and then the bot will sell at a loss. We do not use this setting. It is better to give the bot more money to average. Usually the ratio is 1 to 5 (basic trading amount 300 Dollars then deposit 1500 Dollars)
 
 In addition, algorithms can be imposed on the strategy:
- trailingStop: "BOT_TRAILING_STOP_ACTIVE" ="true". Those. We wait for the lowest price (ATL) and when it goes up by "BOT_TRAILING_STOP_PERSENT" we buy, and we wait for the highest price (ATH) and when it goes down by "BOT_TRAILING_STOP_PERSENT" we sell. ATH works regardless of the "BOT_TRAILING_STOP_ACTIVE_DOWN_REPURCHASES" parameter i.e. it always tries to sell high if TrailingStop is enabled. But it starts making purchases after "BOT_TRAILING_STOP_ACTIVE".
 
- trend lines (THE TESTING IS NOT AVAILABLE): If "TRENDLINESTATUS" is enabled, then the bot looks to see if the price was below "TRENDLINE1" or "TRENDLINE2". If TRENDLINE1_TRIGGER" is set to false, it means that this mark has not yet been passed and he will make a purchase (not paying attention to either the trailing stop or the percentage of the fall). He will not make a purchase only if your book (purchase) price is below this line. That is This is not profitable even if the market price of the token goes up from the bottom, i.e. grows.
+ **trailingStop**: "BOT_TRAILING_STOP_ACTIVE" ="true". Those. We wait for the lowest price (ATL) and when it goes up by "BOT_TRAILING_STOP_PERSENT" we buy, and we wait for the highest price (ATH) and when it goes down by "BOT_TRAILING_STOP_PERSENT" we sell. ATH works regardless of the "BOT_TRAILING_STOP_ACTIVE_DOWN_REPURCHASES" parameter i.e. it always tries to sell high if TrailingStop is enabled. But it starts making purchases after "BOT_TRAILING_STOP_ACTIVE".
+
+
+ **trend lines** (THE TESTING IS NOT AVAILABLE): If "TRENDLINESTATUS" is enabled, then the bot looks to see if the price was below "TRENDLINE1" or "TRENDLINE2". If TRENDLINE1_TRIGGER" is set to false, it means that this mark has not yet been passed and he will make a purchase (not paying attention to either the trailing stop or the percentage of the fall). He will not make a purchase only if your book (purchase) price is below this line. That is This is not profitable even if the market price of the token goes up from the bottom, i.e. grows.
+ 
+ **LASTREBUY** (THE TESTING IS NOT AVAILABLE):
+ **PRICE_FALL_BUY_ALGORITM** (THE TESTING IS NOT AVAILABLE):
  
  ## settings file
 
