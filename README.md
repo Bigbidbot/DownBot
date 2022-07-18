@@ -8,8 +8,6 @@ Latest version link
 Works in console WINDOWS. There is no GUI. But in the next versions will be.
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-YOUTUBE INSTRUCTION (https://www.youtube.com/channel/UCYm2p2WiP0xlpcDMygBRI8A/videos)
-
 Telegram group (https://t.me/bigbidbotmarketinggroup) 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -44,7 +42,7 @@ In addition, algorithms can be imposed on the strategy:
  ## settings file
 
     "WALLETADDRESS": "Replace with your wallet address" - gives a test address to try.
-    "PRIVATEKEY": "aes:nP+......Y49Gw==" "Replace with your wallet private key (not a phrase)" - gives a test address to probe. After the first launch, it will be encrypted with the password you choose.
+    "PRIVATEKEY": "aes:nP+......Y49Gw==" "Replace with your wallet private key (not a phrase)"  - gives a test address to probe. After the first launch, it will be encrypted with the password you choose. 
     "USECUSTOMNODE": "true" - you are using a dedicated or shared server. Public free sometimes freezes. We automatically change them so that they do not block or freeze.
     "CUSTOMNODE": "http://192.0......" -- enter your paid server address
     "EXCHANGE": "pancakeswap" - Exchanger - only this one works so far.
@@ -55,6 +53,7 @@ In addition, algorithms can be imposed on the strategy:
 	"SECRET_KEY_BOT": "one1111111111" -- your license key when purchasing the bot. This is a test one. Works with 1 token and a 5 second delay between price checks.
 	"REAL_BUY_SELL_MODE": "true" --enable real selling. If you just want to see when the bot will buy and sell, set it to false.
 
+Export PRIVATEKEY metamask (https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key)
  ## token file
 
         "STOPLOSSPRICEINBASE": - DO NOT TOUCH. the bot itself configures this parameter.
