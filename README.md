@@ -7,7 +7,9 @@ Latest version link
 ## Bot setup
 Works in console WINDOWS. There is no GUI. But in the next versions will be.
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 YOUTUBE INSTRUCTION (https://www.youtube.com/watch?v=FynNSYEXnNw)
+
 Telegram group (https://t.me/bigbidbotmarketinggroup) 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
