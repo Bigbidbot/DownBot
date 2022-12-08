@@ -124,9 +124,9 @@ When you start the bot, a wallet will be indicated on which you will need to mak
 ### Licenses of 3 types:
 Free - 1 token, delay between price checks 5 seconds.
 
-First level (100$ per month) - 2 tokens delay by price checks 1 second.
+First level (50$ ~~100$~~ per month) - 2 tokens delay by price checks 1 second.
 
-Second level (200$ per month) - 4 tokens delay by price checks 0.1 second. 
+Second level (100$ ~~200$~~ per month) - 4 tokens delay by price checks 0.1 second. 
 
 Pay in USDT, BUSD - BEP20 0x5a8d789C4cf0fa171230cCAd008CbAb942C96EA9 and DM telegram @bigbidbotsupport
 Clients who bought our CEX-bot get one month for free.
