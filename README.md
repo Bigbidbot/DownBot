@@ -1,5 +1,5 @@
 # DownBot
-The bot buys tokens on strong falls, and averages according to a special algorithm.
+Temporarily dont ready for public sale. The bot buys tokens on strong falls, and averages according to a special algorithm.
 
 Latest version link
 ( https://github.com/Bigbidbot/DownBot/releases )
